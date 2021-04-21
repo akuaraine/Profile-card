@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: hsl(185, 75%, 39%);
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* Background */
+.background {
+    position: relative;
+    z-index: -1;
+}
+
+.top-pattern {
+    top: -420px;
+    left: 150px;
+}
+
+.bottom-pattern {
+    bottom: -420px;
+    right: 150px;
+}
+
+/* Card top Section */
+.container {
+    display: flex;
+    justify-content: center;
+    max-width: 1440px;
+}
+
+.profile-card {
+    background-color: #FFF;
+    border-radius: 10px;
+}
+
+.background-pattern {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* card middle section */
+.card-body {
+    font-size: 18px;
+    text-align: center;
+    background: #FFF;
+    margin-top: -60px;
+    height: 210px;
+}
+
+.victor-photo {
+    border-radius: 50%;
+    border: 5px solid #FFF;
+    background-color: #FFF;
+}
+
+.name {
+    margin: 20px auto 10px auto;
+}
+
+.age{
+    color: grey;
+    font-weight: 400;
+}
+
+.city {
+    margin-bottom: 20px;
+    opacity: 0.6;
+}
+
+/* card bottom section */
+.card-footer {
+    border-top: 1px solid lightgrey;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 1em 2em;
+}
+
+.card-footer > * {
+    flex-basis: 100%;
+}
+
+.value {
+    margin-top: 8px;
+}
+
+.category {
+    opacity: 0.6;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+
